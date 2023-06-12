@@ -26,3 +26,15 @@ $ yarn run start:dev
 # production mode
 $ yarn run start:prod
 ```
+
+## Running with Docker
+
+```bash
+docker build -t hederaexplorer .
+
+docker run -dt -p3000:3000 hederaexplorer
+```
+
+## Swagger docs
+
+[http://localhost:3000/api](http://localhost:3000/api)
